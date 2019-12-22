@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -13,6 +14,7 @@
         body {
             width: 100%;
             height: 100%;
+			
             background: #343a40;
         }
         .card{
@@ -88,7 +90,11 @@ height:auto;
 overflow-x:scroll;
 overflow-y:hidden;
 white-space:nowrap;
+display:flex;
+
+
 }
+
  ::-webkit-scrollbar {
   border: 0px solid #d5d5d5;
 }
@@ -105,61 +111,64 @@ white-space:nowrap;
         <button type="button" class="btn ff hh" style="color: white;">View all</button>
 </div>
 </div>
-<div class="container box" style="margin-top: 30px">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card bg-dark text-white" style="display:inline-block;">
+<div class="container box" style="margin-top: 30px;margin-left:30px;display:inline-block;">
+            
+                <div class="card bg-dark text-white" style="display:inline-block;height:210px;width:400px;">
                     <img class="card-img" src="img\Blue card.svg" alt="Card image">
                     <div class="card-img-overlay">
                         <h6 class="card-title" style="opacity: 30%;margin-bottom: 0px">CSE & IT</h6>
                         <h5 class="card-title">Blind Coding</h5>
                         <a href="#" class="stretched-link"></a>
-                        <p class="card-text">For the Given Problem, Participant need to solve the problem when the desktop screen is off.</p>
-                        <p class="card-text" style="text-align: right;">Win upto ₹1500</p>
-                    </div>
+                        <p class="card-text" style="line-height:70%;">For the Given Problem, Participant need to</p>
+						<p  style="line-height:70%;"> solve the problem when the desktop screen </p>
+						<p  style="line-height:70%;"> is off.</p>
+                        <p class="card-text" style="text-align: right;margin-top:5px;">Win upto &nbsp;<i class="fa fa-rupee"></i>1500</p>
+            
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card bg-dark text-white">
+            
+                <div class="card bg-dark text-white" style="display:inline-block;height:210px;width:400px;">
                     <img class="card-img" src="img\Green card.svg" alt="Card image">
                     <div class="card-img-overlay">
                         <h6 class="card-title" style="opacity: 30%;margin-bottom: 0px">ECE</h6>
                         <h5 class="card-title">Circuitix</h5>
                         <a href="#" class="stretched-link"></a>
-                        <p class="card-text">In this competition the participant have to design a circuit for the given outcome.</p>
-                        <p class="card-text" style="text-align: right;"> Win upto ₹1000</p>
+                        <p class="card-text" style="line-height:70%;">In this competition the participant have to </p>
+						<p style="line-height:70%;"> design a circuit for the given outcome.</p>
+                        <p class="card-text" style="text-align: right;margin-top:15%;"> Win upto &nbsp;<i class="fa fa-rupee"></i>1000</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-dark text-white">
+            
+            
+                    <div class="card bg-dark text-white" style="display:inline-block;height:210px;width:400px;">
                     <img class="card-img" src="img\Brown card.svg" alt="Card image">
                     <div class="card-img-overlay">
                         <h6 class="card-title" style="opacity: 30%;margin-bottom: 0px">CIVIL</h6>
                         <h5 class="card-title">Cube Test</h5>
                         <a href="#" class="stretched-link"></a>
-                        <p class="card-text">The participants has to bring their cube along with the mix design they have to use only 35, 40.</p>
-                        <p class="card-text" style="text-align: right;">Win upto ₹1000</p>
+                        <p class="card-text" style="line-height:70%;">The participants has to bring their cube along </p>
+						<p>with the mix design they have to use only 35,</p>
+						<p>40.</p>
+                        <p class="card-text" style="text-align: right;margin-top:-5%;"> Win upto &nbsp;<i class="fa fa-rupee"></i>1000</p>
                     </div>
-                </div>
+            
             </div>
-        </div>
-		<!--
-        <div class="row" >
-            <div class="col-sm-4">
-                <div class="card bg-dark text-white">
+        
+		    
+                    <div class="card bg-dark text-white" style="display:inline-block;height:210px;width:400px;">
                     <img class="card-img" src="img\Teal card.svg" alt="Card image">
                     <div class="card-img-overlay">
                         <h6 class="card-title" style="opacity: 30%;margin-bottom: 0px">MECHANICAL</h6>
                         <h5 class="card-title">CAR RACE</h5>
                         <a href="#" class="stretched-link"></a>
-                        <p class="card-text">The participants has to bring their cube along with the mix design they have to use only 35, 40.</p>
+                        <p class="card-text">The participants has to bring their cube along </p>
+						<p>with the mix design they have to use only 35,</p>
+						<p>40.</p>
                     </div>
-                </div>
+            
             </div>
-        </div>
-		-->
-    </div>
+        
+  
 
 </div>
 </div>
