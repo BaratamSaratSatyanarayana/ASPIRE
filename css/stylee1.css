@@ -152,6 +152,13 @@
 {
   background-color:#ea4c89
 }
+/*.foot21
+{
+	margin-left:13%;
+	margin-right:3%;
+	
+}
+*/
 @media (max-width:767px)
 {
   .social-icons li.title
@@ -171,6 +178,16 @@
 
         position: absolute;
     }
+	.infop1
+	{
+		position:absolute;
+		margin-top:-25%;
+	}
+	.infop2
+	{
+		position:absolute;
+		margin-top:-6%;
+	}
   }
 
   
