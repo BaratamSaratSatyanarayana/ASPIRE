@@ -1,0 +1,66 @@
+body {
+            width: 100%;
+            height: 100%;
+            background: black;
+
+        }
+		
+        @media only screen and (max-width: 600px) {
+            .skam{
+                margin-left:30px;
+				
+                padding: 0;
+				margin-top:2%;
+				width:auto;
+				height:30px;
+				font-size:23px;
+				
+            }	
+			
+        }
+		@media (min-width: 992px)
+		{
+		.skam{
+                margin-left:-15px;
+				margin-top:2%;
+                padding: 0;
+				font-size: 1.7rem;
+            }
+			
+		}
+		
+ @media (max-width: 600px) {  
+ .ffam{
+        font-size: 1.7rem;
+        margin-left: -16px;
+        padding:0;
+    }
+    .ggam{
+        text-align:left;
+        background-color:#311b92;
+		margin-left:42px;
+    }
+	.came{
+	margin-left:40px;
+	width:80%;
+	height:auto;
+	}
+	
+			
+	
+ }
+ 
+ @media (min-width: 992px) { 
+ .ffam{
+font-size: 1.7rem;
+margin-left:-6%;
+padding:0;
+}
+.ggam{
+text-align:left;
+position:absolute;
+margin:1% 0 0 38%;
+ background-color:#311b92;
+ }
+ 
+ }
