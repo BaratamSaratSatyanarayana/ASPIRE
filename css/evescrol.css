@@ -1,0 +1,52 @@
+body{
+        width: 100%;
+
+        background: #343a40;
+
+}
+@media (max-width: 576px)
+{
+
+.hhh
+{
+
+display:none;
+}
+.fff{
+font-size:1rem;
+margin:30;
+height:auto;
+width:80px;
+text-align:left;
+}
+.ggg{
+
+color:#311b92;
+}
+}
+
+
+@media (min-width: 992px)
+{
+.zzz{
+margin:0 0 0 2%;
+}
+.fff{
+font-size: 1.7rem;
+margin-left:-25%;
+padding:0;
+}
+.ggg{
+margin-left:40%;
+width:8px;
+background-color:#311b92;
+  }
+}
+
+#d{
+text-align:left;
+padding:60px;
+font: Semilight;
+letter-spacing: 0.17px;
+color: #BBBBBB;
+}
