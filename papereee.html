@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<style>
+	
+ @media (max-width: 600px) {  
+ .boxed {
+background: #313131;
+ align:center;	
+ border-radius:10px;
+ color:white;
+ box-sizing: content-box;  
+ width:300px;
+ height:40px;
+ padding:10px;  
+ margin-top:-10%;
+ border: 1px solid black ;
+}
+ .ff{
+font-size: 1.7rem;
+margin-left:-12%;
+padding:0;
+}
+.gg{
+text-align:left;
+margin:-9% 0 0 70%;
+ background-color:#311b92;
+ }
+ 
+ .asqs
+ {
+ margin:-36% 0 0 140%;
+ }
+ 
+ .asdd
+ {
+ margin:-36% 0 0 250%;
+ }
+ .assf
+ {
+ margin-left:-8%;
+ }
+ }
+ 
+ @media (min-width: 992px) { 
+ .ff{
+font-size: 1.7rem;
+margin-left:-12%;
+padding:0;
+}
+
+
+.gg{
+text-align:left;
+margin:0 0 0 40%;
+ background-color:#311b92;
+ }
+ .boxed {
+ margin-top:-2%;
+background: #313131;
+ align:center;	
+ border-radius:10px;
+ color:white;
+ box-sizing: content-box;  
+ width:400px;
+ height:30px;
+ padding:10px;  
+ border: 1px solid black ;
+}
+
+ .zz{
+ position:relative;
+ left:1%;
+ }
+ .navas{
+ position:absolute;
+ margin-top:-0.5%;
+ }
+ .navbar-nav > li{
+  margin-left:40px;
+  margin-right:40px;
+}
+a
+{
+font-size:1.5rem;
+}
+ .ds{
+
+ }
+ .qw{
+margin-left:-1%;
+ }
+ .er{
+ margin:-6.5% 0 0 -11.4%;
+ width:100%;
+ }
+ }
+ 
+ body {
+            width: 100%;
+            height: 100%;
+            background: #343a40;
+
+        }
+.navbar a:hover{
+border-bottom:4px solid white;
+}
+.navbar{
+overflow:hidden;
+align:left;
+color:white;
+font-family:Arial;
+
+}
+
+.navbar a{
+
+
+display:block;
+color:#fff;
+text-align:left;
+padding:5px 5px;
+padding-left:5px;
+text-decoration:none;
+
+font-weight:bold;
+
+}
+.borderless td, .borderless th {
+    border: none;
+	color:white;
+}
+table
+{
+margin-left:-5%;
+}
+	</style>
+<!--<script>
+var btnContainer = document.getElementById("navas");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>-->
+<script>
+function openCity(cityName) {
+  var i, x;
+  x = document.getElementsByClassName("s");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(cityName).style.display = "block";
+}
+</script>
+
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid bg-dark" style=" background-image: url('temp-bg.png'); margin-top:-2%;background-size:contain,cover; background-repeat: repeat-x;">
+
+<div class="row">
+<div class="col-sm-5 zz">
+        <a href="#" style="color: white; font-size: 1.7rem;"><i class="fas fa-angle-left"></i>     PAPER PRESENTATIONS</a></div>
+<div class="col-0.5 gg" style="padding:0;">
+        <button type="button" class="btn ff hh" style="color: white;">Register</button>
+</div>
+</div>
+<nav class="navbar navbar-expand-sm navas">
+  <!-- Links -->
+  <ul class="navbar-nav ">
+    <li class="nav-item">
+      <a class="nav-link text-white assf" href="#" onclick="openCity('over')">Overview</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white asqs" href="#" onclick="openCity('det')">Details</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white asdd" href="#" onclick="openCity('coords')">Coordinators</a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<div class="container s text-white" style="display:block">
+<center> 
+<p>
+The paper presentation of ASPIRE 2K20 aims at tapping the infinite potential of human mind to generate an Idea, which when given a proper platform can transform into a great new discovery. This is your platform to express yourself, make your views known, explore your ideas and make the best paper presentation. We invite you to bring forth such original ideas and present it in a genuine and comprehensive way.
+</p>
+</center>
+</div>
+
+<div id="over" class="container s text-white" style="display:none">
+<center> 
+<p>
+The paper presentation of ASPIRE 2K20 aims at tapping the infinite potential of human mind to generate an Idea, which when given a proper platform can transform into a great new discovery. This is your platform to express yourself, make your views known, explore your ideas and make the best paper presentation. We invite you to bring forth such original ideas and present it in a genuine and comprehensive way.
+
+</p>
+</center>
+</div>
+
+<div id="det" class="container s" style="display:none">
+<div class="boxed text-white">
+spot registerations also available.But limited seats only
+</div>
+<br><br>
+<p class="text-white">
+RULES:
+<br>
+STUDENTS SHOULD BRING YOUR COLLEGE ID CARD FOR IDENTIFICATION
+<br>
+1. Number of persons per team: 2 (maximum).
+<br>
+2. Time Limit: 6 min (maximum).
+<br>
+3. Topic should be related to Electrical and Electronic Engineering.
+<br>
+4. The decision of the judges will be treated as final and binding on all.
+<br>
+5. Abstract of 1 page should be sent to aspire2k20@gmail.com, the subject of the mail should be PAPER PRESENTATION - CSE.
+<br>
+</p>
+<br>
+<br>
+
+<table class="table table-borderless text-white">
+  <thead>
+    <tr>
+      <th scope="col">Scope</th>
+      <th scope="col">Registration</th>
+      <th scope="col">Venue</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">10.00 AM</th>
+      <td scope="row">150 per person</td>
+      <td scope="row">Aitam C-block</td>
+    </tr>
+    
+    
+  </tbody>
+</table>
+
+  
+  <table class="table table-borderless text-white">
+  
+  <tr>
+  <th scope="col">Date</th>
+  <th scope="col">Cash prize</th>
+  <th scope="col">Address</th>
+  </tr>
+  <tr>
+  <td scope="row">28,29 feb</td>
+  <td scope="row">3000/-</td>
+  <td scope="row">AITAM COLLEGE,
+TEKKALI,
+532001</td>
+  </tr>
+  </table>
+
+</div>
+</div>
+
+
+
+<div id="coords" class="container s" style="display:none;">
+<table class="table borderless">
+ <tr>
+ <th colspan="2">Event coordinator</th>
+ <th colspan="2">Department Coordinator</th>
+ </tr>
+ <tr>
+ <td> john</td>
+ <td>99999999999</td>
+ <td>Pavan</td>
+ <td>88888888888</td>
+ </tr>
+</table>
+<table class="table borderless">
+ <tr>
+ <th colspan="2">Student Convener</th>
+ <th colspan="2">Student Co-convener</th>
+ </tr>
+ <tr>
+ <td> Spandana</td>
+ <td>8106421978</td>
+ <td>Sai Krishna</td>
+ <td>7799141366</td>
+ </tr>
+</table>
+</div>
+
+	
+	
+	
+</body>
+</html>
