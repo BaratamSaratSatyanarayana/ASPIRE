@@ -1,0 +1,79 @@
+ body {
+            width: 100%;
+            height: 100%;
+            background: #343a40;
+
+        }
+		
+	@media (max-width: 576px) 
+		{
+		
+			.hhh
+			{
+				
+				
+			}
+			.fffSP{
+			font-size:1.2rem;
+			margin:0;
+			height:auto;
+	
+			margin-left:-35%;
+			text-align:left;
+			}
+			.gggSP{
+			
+			margin-top:-9%;
+			margin-left:75%;
+			width:70px;
+			background-color:#311b92;
+			}
+			
+			.zzzSP{
+			margin:67% 0 0 4%;
+		}
+		
+		.sp21SP1
+	{
+	height:auto;
+	width:auto;
+	}
+	.sp21SP2
+	{
+		margin-top:2%;
+	height:auto;
+	width:auto;
+	}
+	
+		}	
+	
+	
+	@media (min-width: 992px)
+	{ 
+		.zzzSP{
+		margin:0 0 0 4%;
+		}
+		.fffSP{	
+		  font-size: 1.7rem;
+		  margin-left:-25%;
+		padding:0;
+		}
+		.gggSP{
+			margin-left:40%;
+			width:8px;
+			background-color:#311b92;
+		   }
+		   .sp21SP1
+	{
+	height:80%;
+	width:auto;
+	}
+	
+	.sp21SP2
+	{
+		margin-top:1.5%;
+	height:auto;
+	width:auto;
+	}
+	}
+	
