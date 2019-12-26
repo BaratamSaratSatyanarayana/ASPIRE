@@ -1,8 +1,8 @@
-body {
+
+	body {
             width: 100%;
             height: 100%;
             background: #343a40;
-
         }
 		
 	@media (max-width: 576px) 
@@ -15,7 +15,7 @@ body {
 			}
 			.fff{
 			font-size:1rem;
-			margin-right:10%;
+			margin:0;
 			height:auto;
 			width:80px;
 			text-align:left;
@@ -43,16 +43,31 @@ body {
 			background-color:#311b92;
 		   }
 	}
-	.lll{
+	.qqq{
+		background: #4BA498 0% 0% no-repeat;
+		padding-box;
+		border-radius: 9px;
+		opacity:1;
+		height:122px;
+		margin:-15% 0 0 0;
+	}
+	.ww{
+	padding:5%;
+	height:120px;
+	width:220px;
+	}
+	.ls{
 	margin-bottom:10%;
 	background: #16A085 0% 0% no-repeat padding-box;border-radius: 9px;opacity:1;margin-left:2%;
 	}
 	
-	.mmm{
+	.mss{
 	
 	margin-bottom:10%;
-	margin-right:5%;
 	background: #58D68D 0% 0% no-repeat padding-box; border-radius: 9px;opacity:1;margin-left:2%;
 	}
-	
-	
+	.ww1{
+	margin:5% 0 0 2%;
+	height:120px;
+	width:150px;
+	}
