@@ -62,23 +62,22 @@ body {
 	line-height: 150px;
 	font-weight: 600;
 	cursor: pointer;
-	color: gray;
+	color: white;
 	text-decoration: none;
 
 }
 .sidebar-list-menu li a.active {
 	font-weight: 900;
-	color:white;
 
 }
 .sidebar-list-menu-active-bar {
 	position: absolute;
-	width: 10px;
-	height: 50px;
-    border-radius: 10%;
+	width: 20px;
+	height: 20px;
+    border-radius: 100%;
 	background: white;
 	top: 65px;
-	left: -30px;
+	left: -45px;
 	z-index: 999;
 	-webkit-transition: all .5s;
 	   -moz-transition: all .5s;
@@ -123,12 +122,9 @@ body {
 	}
 	.sidebar-list-menu::after {
 		left: -10px;
-		
-		
 	}
 	.sidebar-list-menu-active-bar {
 		left: -12px;
-		
 	}
 }
 #particles-js{
@@ -187,7 +183,6 @@ body {
     margin-left: -15px;
     padding:0;
 }
-
 .gg{
     text-align:left;
     width: 100px;
