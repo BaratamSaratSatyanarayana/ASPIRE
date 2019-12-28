@@ -16,14 +16,14 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 289,
+        "value": 150,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#311b92"
+        "value": "#5F69BB"
       },
       "shape": {
         "type": "circle",
