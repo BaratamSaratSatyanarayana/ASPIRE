@@ -10,74 +10,60 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<style>
 	
- @media (max-width: 600px) {  
- body
-{
-overflow:hidden;
-  background:black;
-}
  
-form{
-margin:0 0 0 -6%;
-width:30%;
+
+ 
+ 
+ @media (min-width: 992px) { 
+ 
+ .form1{
+border:1px solid white;
+border-radius:5px;
+height:400px;
+width:720px;	
+background:#000000;
+margin:1% 0 0 22.2%;
+padding:1% 3% 1% 3%;
 }
-.frm2{
-margin-left:25px;
-}
-.btn1{
-margin:0 0 0 40%;
-background:#222039;
-}
-}
-.form1
-{
-width:1088px;
-height:100px;
-margin:1% 0 0 22%;
-}
-.jjjj{
+.backimg{
 background-color:#303030;
+margin-top:-1.5%;
+margin-left:-5%;
+
 }
- .zz{
- position:relative;
- left:1%;
- }
- 
  
  body
  {
+ 
  overflow-x:hidden;
  background:black;
+ 
  }
 	
- @media (max-width: 600px) {  
- .ffreg{
+
+ .box1 p
+ {
+ padding-left:10px;
+ padding-top:5px;
+ }
+ .col-sm-5 a{
+ margin-left:15%;
+ }
+ .submitdiv button{
 font-size: 1.7rem;
 margin-left:-15%;
 padding:0;
 }
-.ggreg{
+.submitdiv{
 text-align:left;
-margin:2% 0 0 5%;
+margin:2% 0 0 44%;
  background-color:#311b92;
- }
- }
+  }
  
- @media (min-width: 992px) { 
- .ffreg{
-font-size: 1.7rem;
-margin-left:-15%;
-padding:0;
-}
-.ggreg{
-text-align:left;
-margin:2% 0 0 30%;
- background-color:#311b92;
- }
- } 
  
-.btn1{
-margin-left:27%;
+button{
+margin-left:40%;
+margin-top:4%;
 } 
  
  .box1{
@@ -88,27 +74,9 @@ margin-left:27%;
 	border-radius:4px;
 	
 	}
-	.pc{
-	position:absolute;
-	margin:8px 0 0 5px;
-	}
 	
-	@media(max-width:600px)
-	{
-	.box1{
-	background:gray;
-	height:40px;
-	width:310px;
-	margin:-5% 0 0 8%;
-	border-radius:10px;
 	
-	}
-	.pc{
-	font-size:12.5px;
-	margin:9px 0 0 11px;
-	}
-	
-	}
+}	
  
  
 	</style>
@@ -116,38 +84,39 @@ margin-left:27%;
 </head>
 <body>
 
-<div class="jumbotron jumbotron-fluid jjjj " style=" background-image: url('temp-bg.png'); margin-top:-2%;margin-left:0%;background-size:contain,cover; background-repeat: repeat-x;">
+<div class="jumbotron jumbotron-fluid backimg " style=" background-image: url('temp-bg.png'); background-size:contain,cover; background-repeat: repeat-x;">
 
 <div class="row">
-<div class="col-sm-5 zz">
-        <a href="../softwareevents.html" style="color: white; font-size: 1.7rem;"><i class="fas fa-angle-left"></i>Register</a></div>
+<div class="col-sm-5 ">
+        <a href="../softwareevents.html" style="color: white; font-size: 1.7rem;"><i class="fas fa-angle-left"></i>Register</a>
+</div>
 
 </div>
 </div>
 <div class="row">
 <div class="box1">
-<p class="text-white pc">Minimum of 2 members required. Maximum of 4</p>
+<p class="text-white ">Minimum of 2 members required. Maximum of 4</p>
 
 </div>
 </div>
 <div class="form1" style="">
 <form >
   <div class="form-row">
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-6">
       <label for="inputEmail4" class="text-white" style="">Name</label>
       <input type="text" class="form-control" id="names" style="background-color:#373737;border-color:#373737;border-radius:0;color:white;border-bottom-style:2px;border-bottom-color:white;">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-6	">
       <label for="inputPassword4" class="text-white">E-mail</label>
       <input type="email" class="form-control" id="emails" style="background-color:#373737;border-color:#373737;border-radius:0;color:white;border-bottom-style:2px;border-bottom-color:white;">
     </div>
   </div>
   <div class="form-row">
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-6">
       <label for="inputEmail4" class="text-white">Phone Number</label>
       <input type="text" class="form-control" id="inputEmail4" style="background-color:#373737;border-color:#373737;border-radius:0;color:white;border-bottom-style:2px;border-bottom-color:white;">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-6">
       <label for="inputState" class="text-white">Branch</label>
       <select id="inputState" class="form-control" style="background-color:#373737;color:white;border-color:#373737;border-radius:0;border-bottom-style:2px;border-bottom-color:white;">
         <option selected >Choose</option>
@@ -161,7 +130,7 @@ margin-left:27%;
     </div>
   </div>
    <div class="form-row">
-    <div class="form-group col-md-8">
+    <div class="form-group col-md-12">
       <label for="inputState" class="text-white">Event Name</label>
       <select id="inputState" class="form-control" style="background-color:#373737;color:white;border-color:#373737;border-radius:0;color:white;border-bottom-style:2px;border-bottom-color:white;">
         <option selected>Choose</option>
@@ -173,7 +142,7 @@ margin-left:27%;
 	</div>
 
   <div class="form-row">
-    <div class="form-group col-md-8">
+    <div class="form-group col-md-12">
       <label for="inputEmail4" class="text-white">College/Institution Name</label>
       <input type="email" class="form-control" id="inputEmail4" style="background-color:#373737;border-color:#373737;border-radius:0;color:white;border-bottom-style:2px;border-bottom-color:white;">
     </div>
@@ -185,15 +154,15 @@ margin-left:27%;
       <label class="form-check-label text-white" for="gridCheck">
         Accommodation required
       </label>
-	  <a href="#" class="text-warning frm2">View Details</a>
+	  <a href="#" class="text-warning ">View Details</a>
     </div>
   </div>
   </div>
-  <button type="submit" class="btn btn-primary btn1 " style="background:#222039;border-color:#323dd1;border-radius:0;">Add Member</button>
+  <button type="submit" class="btn btn-primary " style="background:#222039;border-color:#323dd1;border-radius:0;">Add Member</button>
 </form>
 <div class="row">
-<div class="col-0.5 ggreg" style="padding:0;">
-        <button type="button" class="btn ffreg" style="color: white;">Submit</button>
+<div class="col-0.5 submitdiv" style="padding:0;">
+        <button type="button" class="btn " style="color: white;">Submit</button>
 </div>
 </div>
 </div>	
